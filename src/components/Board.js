@@ -1,8 +1,9 @@
 import React from "react"
 import Square from "./Square"
+import styles from '../components/Board.module.css'
 
 const Board = ({ squares, onClick }) => (
-  <div>
+  <div className={styles.board}>
     <Square value='1' onClick={() => onClick('dummy value')} />
     <Square value='2' onClick={() => onClick('dummy value')} />
     <Square value='3' onClick={() => onClick('dummy value')} />

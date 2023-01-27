@@ -1,9 +1,11 @@
 .square { 
   background: plum;
   border: 2px solid black;
+}
+
+.squareButton {
   font-size: 30px;
   font-weight: 800;
   cursor:pointer;
   outline: none;
-
 }

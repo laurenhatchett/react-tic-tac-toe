@@ -4,8 +4,8 @@ import styles from '../components/Square.module.css'
 
 
 const Square = ({ value, onClick }) => (
-  <div>
-    <button className={styles.square} onClick={onClick}>
+  <div className={styles.square}>
+    <button className={styles.squareButton} onClick={onClick}>
       {value}
     </button>
   </div>
